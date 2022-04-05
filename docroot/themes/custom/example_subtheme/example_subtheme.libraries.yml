@@ -1,0 +1,16 @@
+global_styles:
+  css:
+    theme:
+      css/colors.css: {}
+
+ltr_styles:
+  css:
+    theme:
+      css/ltr.css: {}
+      css/ltr-print.css: {media: print}
+
+rtl_styles:
+  css:
+    theme:
+      css/rtl.css: {}
+      css/rtl-print.css: {media: print}

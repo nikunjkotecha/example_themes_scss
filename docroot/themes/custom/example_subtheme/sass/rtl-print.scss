@@ -1,0 +1,35 @@
+// Override default value for $dir in directional.scss
+$dir: rtl;
+
+// These are third-party modules that provide useful utility functions for
+// building grids and media queries.
+@import '../../node_modules/susy/sass/susy';
+@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
+
+// Reset to normalize browser styles.
+@import "../../white_label/sass/reset";
+@import "../../white_label/sass/icons";
+
+// Config file that contains centralized variables.
+@import "../../white_label/sass/config/**/*";
+@import "config/**/*";
+@import "../../white_label/sass/utils";
+@import "utils";
+
+// Utilities for building multilingual websites.
+@import "../../white_label/sass/directional";
+// @import "directional";
+
+// Common styles for @extend.
+@import "../../white_label/sass/placeholder";
+
+// These are the default base styles applied to HTML elements.
+@import "../../white_label/sass/base/**/*";
+@import "base/**/*";
+@import "../../white_label/sass/layout/**/*";
+@import "../../white_label/sass/state/**/*";
+
+// Design components are reusable styling that can be applied using just the CSS
+// class names specified in the component. Also known as design 'modules'.
+@import "../../white_label/sass/components/**/*";
+@import "components/**/*";

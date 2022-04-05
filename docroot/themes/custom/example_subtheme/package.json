@@ -1,0 +1,21 @@
+{
+  "name": "YOUR_PROJECT_custom_themes",
+  "version": "0.1.0",
+  "description": "Front-end build tools for custom themes of YOUR_PROJECT.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acquia-pso/YOUR_PROJECT.git"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "../node_modules/gulp/bin/gulp.js lint",
+    "watch": "../node_modules/gulp/bin/gulp.js watch",
+    "build:dev": "../node_modules/gulp/bin/gulp.js build:dev",
+    "build": "../node_modules/gulp/bin/gulp.js build"
+  }
+}

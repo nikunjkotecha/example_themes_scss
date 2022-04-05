@@ -1,0 +1,21 @@
+breakpoint.palm:
+   label: Palm
+   mediaQuery: 'all and (max-width: 47.9375rem)'
+   weight: 1
+   multipliers:
+     - 1x
+     - 2x
+breakpoint.lap:
+  label: Lap
+  mediaQuery: 'all and (min-width: 48rem) and (max-width: 64rem)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+breakpoint.desk:
+  label: Desk
+  mediaQuery: 'all and (min-width: 64.0625rem)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x

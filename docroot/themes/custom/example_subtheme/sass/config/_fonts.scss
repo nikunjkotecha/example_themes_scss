@@ -1,0 +1,86 @@
+
+// Theme specific font family
+// English fonts.
+// Adding Arabic fonts as fallback for arabic text to be shown correctly in English site.
+$openSans: 'Open Sans', sans-serif;
+$cairo: 'Cairo', sans-serif;
+$primary-font: $openSans, $cairo;
+
+// Arabic fonts.
+// Adding En fonts so browser prints English characters & numbers correctly in arabic.
+$font-arabic: $openSans, $cairo;
+
+$example-icons: 'example-icons';
+$body_font: $primary-font;
+
+// Override font variables coming from MC, without this we get a 404 as font files are no longer present in current theme.
+$arial: $primary-font;
+$example-bold: $primary-font;
+$example-arabic-bold: $font-arabic;
+$example-thin: $primary-font;
+$example-thin-nodir: $primary-font;
+$example-arabic-thin: $font-arabic;
+
+// Icon Fonts
+$icons: (
+  arrowdown: "\e900",
+  arrowup: "\e901",
+  blog: "\e902",
+  blogselect: "\e903",
+  checkboxempty: "\e904",
+  checkboxfull: "\e905",
+  checkshape: "\e906",
+  chevrondown: "\e907",
+  chevronleft: "\e908",
+  chevronright: "\e909",
+  chevronup: "\e90a",
+  close: "\e90b",
+  closeshape: "\e90c",
+  delivery: "\e90d",
+  deliveryservice: "\e90e",
+  direction: "\e90f",
+  email: "\e910",
+  emailselect: "\e911",
+  facebook: "\e912",
+  facebookselect: "\e913",
+  googleplus: "\e914",
+  googleplusselect: "\e915",
+  hide: "\e916",
+  infomation: "\e917",
+  instagram: "\e918",
+  instagramselect: "\e919",
+  language: "\e91a",
+  list: "\e91b",
+  login: "\e91c",
+  logout: "\e91d",
+  map: "\e91e",
+  mappin: "\e91f",
+  menu: "\e920",
+  mylocation: "\e921",
+  newsletter: "\e922",
+  nextdaydelivery: "\e923",
+  pinterest: "\e924",
+  pinterestselect: "\e925",
+  play: "\e926",
+  prize: "\e927",
+  radioempty: "\e928",
+  radiofull: "\e929",
+  rating: "\e92a",
+  ratingfull: "\e92b",
+  rewards: "\e92c",
+  search: "\e92d",
+  shoppingbag: "\e92e",
+  show: "\e92f",
+  twitter: "\e930",
+  twitterselect: "\e931",
+  user: "\e932",
+  warning: "\e939",
+  whiteglovedelivery: "\e933",
+  wishlist: "\e934",
+  wishlistfull: "\e935",
+  youtube: "\e936",
+  youtubeselect: "\e937",
+  zoom: "\e938",
+  bell: "\e006",
+  marquee-plus: "\e083"
+);

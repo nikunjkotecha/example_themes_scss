@@ -1,0 +1,24 @@
+name: Example Subtheme
+type: theme
+description: 'Theme for Example.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: cog
+
+regions:
+  menu_primary: 'Menu Primary'
+  menu_secondary: 'Menu Secondary'
+  header: Header
+  pre_content: 'Pre content'
+  breadcrumb: Breadcrumb
+  hero_content: 'Hero Content'
+  highlighted: 'Highlight Content'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  post_content: 'Post content'
+  footer_primary: 'Footer Primary'
+  footer_secondary: 'Footer Secondary'
+
+libraries:
+  - example_subtheme/global_styles

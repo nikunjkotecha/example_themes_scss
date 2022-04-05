@@ -1,0 +1,2 @@
+$primary-font: if-ltr($primary-font, $font-arabic);
+$font-arabic: if-ltr($font-arabic, $primary-font);
